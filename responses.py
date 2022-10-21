@@ -14,3 +14,6 @@ def handle_response(message: str):
 
     if p_message == "marwin i need a german name":
         return name_service.get_german_name()
+
+    if p_message == "marwin i need a english name":
+        return name_service.get_german_name()
