@@ -6,3 +6,6 @@ def handle_response(message: str):
 
     if p_message == '!help':
         return "`This is a help message`"
+
+    if p_message == "marwin slide in my dms":
+        return 'Hello! Helloo?? Oh... Hey you! Can you help me I think I am los... Nvm I am at the right place shawty'
