@@ -3,3 +3,6 @@ def handle_response(message: str):
 
     if p_message == 'hey':
         return 'Helo'
+
+    if p_message == '!help':
+        return "`This is a help message`"
