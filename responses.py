@@ -1,4 +1,5 @@
 from services import name_service
+from services import condition_service
 
 def handle_response(message: str):
     p_message = message.lower()
@@ -17,3 +18,6 @@ def handle_response(message: str):
 
     if p_message == "marwin i need a english name":
         return name_service.get_german_name()
+
+    if p_message == "marwin what are the conditions":
+        return condition_service.get_conditions()
